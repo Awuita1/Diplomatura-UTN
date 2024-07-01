@@ -1,0 +1,29 @@
+/* Stylesheet de paginaCV */
+
+header {
+    position: relative; /* Asegura que los elementos internos posicionados sean relativos a este contenedor */
+}
+
+header h1 {
+    color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0; /* Elimina el margen inferior por defecto */
+}
+
+/* Estilo para la imagen de presentación */
+header img.imagen_presentacion {
+    position: absolute; /* Para posicionarla de forma absoluta dentro del header */
+    
+    /* Ajusto la ubicacion de la imagen */
+    top: 10px;
+    right: 10px;
+    /* Ajusto la ubicacion de la imagen */
+
+    width: 150px;
+    height: 150px;
+}
+
+#edad {
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+}
