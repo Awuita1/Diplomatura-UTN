@@ -27,3 +27,27 @@ header img.imagen_presentacion {
     color: blue;
     font-family: 'Courier New', Courier, monospace;
 }
+
+#domicilio{
+    color: chocolate;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#series{
+    color: cornflowerblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#pelis{
+    color: blue;
+    font-family: monospace;
+}
+
+#perfil{
+    color: brown;
+}
+
+#formulario{
+    color: darkseagreen;
+}
+
