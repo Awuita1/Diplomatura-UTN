@@ -1,0 +1,150 @@
+/* Stylesheet de paginaCV */
+
+header h1 {
+    background: linear-gradient(to right, violet, blue);
+    box-shadow: -4 4 30px black;
+    width: 500px;
+    height: 50px;
+
+    border-radius: 10px 20px 15px 5px;
+
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+/* Estilo para la imagen de presentación */
+header img.imagen_presentacion {
+    position: fixed;
+    /* Para posicionarla de forma absoluta dentro del header */
+    top: 10px;
+    right: 10px;
+    
+    /* Tamaño cuadrado deseado */
+    width: 100px;
+    height: 100px;
+    /* Tamaño cuadrado deseado */
+    object-fit: cover;
+    /* Ajusta la imagen para llenar el cuadro manteniendo su proporción */
+    border-radius: 50%;
+    /* Hace que la imagen tenga bordes redondeados */
+}
+
+.relleno p {
+
+     /* Creo una caja */
+    width: 720px;
+    height: 70px;
+
+    /* color de la caja*/
+    background: linear-gradient(to right, violet, blue);
+
+    text-align: center;
+
+    column-count: 2;
+    column-gap: 10px;
+
+    border-radius: 10px 20px 15px 5px;
+
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.edad{
+    right: 100px;
+
+    /* Creo una caja */
+    width: 200px;
+    height: 100px;
+
+    text-align: center;
+
+    /* color de la caja*/
+    background: linear-gradient(to right, violet, blue);
+
+    position: fixed;
+
+    border-radius: 10px 20px 15px 5px;
+
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.domicilio{
+    /* Creo una caja */
+    width: 200px;
+    height: 100px;
+
+    /* color de la caja*/
+    background: linear-gradient(to right, violet, blue);
+
+    position: static;
+
+    text-align: center;
+
+    border-radius: 10px 20px 15px 5px;
+
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.series{
+    right: 100px;
+
+    /* Creo una caja */
+    width: 200px;
+    height: 150px;
+
+    text-align: center;
+
+    /* color de la caja*/
+    background: linear-gradient(to right, violet, blue);
+
+    position: fixed;
+
+    border-radius: 10px 20px 15px 5px;
+
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.pelis{
+    /* Creo una caja */
+    width: 200px;
+    height: 150px;
+
+    /* color de la caja*/
+    background: linear-gradient(to right, violet, blue);
+
+    position: static;
+
+    text-align: center;
+
+    border-radius: 10px 20px 15px 5px;
+
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.perfil{
+    /* Creo una caja */
+    width: 200px;
+    height: 180px;
+
+    text-align: center;
+
+    /* color de la caja*/
+    background: linear-gradient(to right, violet, blue);
+
+    border-radius: 10px 20px 15px 5px;
+
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+footer{
+    /* Creo una caja */
+    width: 150px;
+    height: 60px;
+    
+    /* color de la caja*/
+    background: linear-gradient(to right, violet, blue);
+
+    text-align: center;
+
+    border-radius: 10px 20px 15px 5px;
+
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
