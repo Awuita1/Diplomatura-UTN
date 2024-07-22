@@ -1,0 +1,31 @@
+.contenedor {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 1500px;
+
+    border: 2px solid #000; 
+}
+
+.item{
+    display: flex;
+	width: 200px;
+	height: 200px;
+	font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.item1{
+    background-color: red;
+}
+
+.item2{
+    background-color: blue;
+}
+
+.item3{
+    background-color: green;
+}
