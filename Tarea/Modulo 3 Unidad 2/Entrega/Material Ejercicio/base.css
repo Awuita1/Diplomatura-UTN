@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	color: #000;
+	background: #332F29;
+	font-size:100%;
+}
+#contenedor {
+	width: 800px;
+	background: #8FA68E;
+	margin-right:auto;
+	margin-left:auto;
+	overflow: hidden;
+}
+nav {
+	background: #CC3910;
+	float: left;
+	width: 160px;
+}
+ul {
+	list-style-type:none;
+}
+a {
+	color:#F1F2C0;
+	text-decoration: none;
+}
+section {
+	background: #F1F2C0;
+	float: left;
+	margin: 0 0 0 25px;
+	width: 400px;
+}
+aside {
+	background: #CCC59E;
+	float: right;
+	width: 190px;
+}
+
+/* Caso de resolucion menor a 800px  */
+@media screen and (min-width: 800px){
+
+
+	body{
+		h1{
+			background-color: #8FA68E;
+		}
+		
+		nav{
+			background-color: goldenrod;
+			width: 100%;
+		}
+
+		ul{
+			list-style-type:none;
+		}
+
+		a {
+			text-decoration: none;
+			color: #000;
+
+		}
+
+		section{
+			background-color: burlywood;
+			border: 1px solid #000; /* Borde de 2 píxeles de ancho, color negro */
+			width: 100%;
+			max-width: none; /* Asegura que no haya un límite de ancho */
+			overflow: visible;
+		}
+
+		aside {
+			background-color: cadetblue;
+			border: 1px solid #000;
+			width: 100%;
+			max-width: none; /* Asegura que no haya un límite de ancho */
+			overflow: visible; /* Asegura que el contenido sea visible */
+		}
+	}
+}
