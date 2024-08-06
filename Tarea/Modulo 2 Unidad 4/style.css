@@ -31,9 +31,5 @@ aside{
 
 
 footer{
-    display: flex;
-    position:absolute;
-    position: relative;
-    left: 100px;
-    color: black;
+
 }
