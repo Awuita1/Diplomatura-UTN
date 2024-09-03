@@ -268,7 +268,7 @@ h2{
     position: relative;
     left: 5rem;
     cursor: pointer;
-    transition: all 0.8s ease;
+    transition: all 0.5s ease;
 }
 
 .formulario input[type="submit"]:hover {
