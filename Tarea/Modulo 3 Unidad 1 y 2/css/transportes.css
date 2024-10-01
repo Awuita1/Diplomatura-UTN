@@ -5,8 +5,18 @@ body{
 }
 
 header{
-    background-color: #2e64a1;
+    background-color: rgba(174,126,208);
     padding: 16px 0;
+}
+
+header img{
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%; /* Convierte el cuadrado en un círculo */
+    box-shadow: 0px 0px 14px 2px rgba(0,0,0,0.87);
+    -webkit-box-shadow: 0px 0px 14px 2px rgba(0,0,0,0.87);
+    -moz-box-shadow: 0px 0px 14px 2px rgba(0,0,0,0.87);
+
 }
 
 header h1{
@@ -18,6 +28,7 @@ header h1{
     position: relative;
     bottom: 35px;
     margin-left: 10px;
+    text-shadow: -1px 2px 2px rgba(157,36,36,0.6);
 }
 
 nav{
@@ -184,3 +195,85 @@ h2{
 .servicio:nth-child(even){
     flex-direction: row-reverse;
 }
+
+/* Galery */
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.galeria img{
+    width: 18%;
+    border: 1px solid #ddd;
+    padding: 0.3em;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-right: 2%;
+}
+
+/* End galery*/
+
+/* News */
+
+/* End Nexs */
+
+/* Contact */
+
+.contacto{
+    display: flex;
+    gap: 24px;
+}
+
+.contacto div{
+    width: 100%;
+}
+
+.datos p{
+    font-size: 14px;
+}
+
+.datos ul li{
+    font-size: 13px;
+}
+
+.formulario p{
+    display: flex;
+}
+
+.formulario p label{
+    min-width: 80px;
+    display: flex;
+    align-items: center;
+}
+
+
+.formulario p:nth-child(4){
+    align-items: start;
+}
+
+.formulario textarea{
+    resize: none;
+    height: 120px;
+}
+
+.formulario input[type="submit"]{
+    background: rgba(174,126,208);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    color: white;
+    font-size: 16px;
+    padding: 6px 20px;
+    width: auto;
+    position: relative;
+    left: 5rem;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.formulario input[type="submit"]:hover {
+    background-color: rgb(189, 106, 142);
+}
+
+
+/* End contact */
