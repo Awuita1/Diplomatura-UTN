@@ -33,7 +33,7 @@ app.use('/users', usersRouter);
 */
 
 app.get('/', function (req,res){
-  var conocido = Boolean(req,res);
+  var conocido = Boolean(req.session.nombre);
 
   res.render('index', {
     title: 'Sesion en express',
@@ -42,10 +42,17 @@ app.get('/', function (req,res){
   });
 })
 
-app.post('ingresar', function(req,res){
-  if (req.body.nombre)
+app.post('/ingresar', function(req,res){
+  if (req.body.nombre){
     req.session.nombre = req.body.nombre;
+  }
+    res.redirect('/');
 });
+
+app.get('/salir', function(req,res){
+  req.session.destroy();
+  res.redirect('/');
+})
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));
