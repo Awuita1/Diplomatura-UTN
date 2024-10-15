@@ -46,7 +46,7 @@ app.post('/ingresar', function(req,res){
   if (req.body.nombre){
     req.session.nombre = req.body.nombre;
   }
-    res.redirect('/');
+    res.redirect('/');S
 });
 
 app.get('/salir', function(req,res){
