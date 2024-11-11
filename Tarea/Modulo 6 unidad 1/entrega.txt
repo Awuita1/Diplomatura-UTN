@@ -1,0 +1,8 @@
+La seccion dinamica de mi sitio va a ser una biblioteca que contenga una tabla con los siguientes atributos:
+- id
+- img
+- titulo
+- subtitulo
+- descripccion
+
+la biblioteca mostarara una lista en el que se mostrara la imagen de un juego y al lado el titulo, subtitulo y descripccion
